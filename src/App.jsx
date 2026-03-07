@@ -471,7 +471,7 @@ const Footer = ({ t }) => {
     <footer className="relative z-10 border-t border-slate-800/50 mt-4">
       <div className="container mx-auto max-w-7xl px-4 py-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500">
         <span>
-          © {year} <span className="text-slate-400">Thomas Jefersson Vaz</span> · thomasjeferssonvaz.dev.br
+          © {year} <span className="text-slate-400">Thomas Jefersson Vaz</span> · mikrolabs.dev· thomasjeferssonvaz.dev.br
         </span>
         <div className="flex items-center gap-4">
           <a href="https://github.com/Thomas-Jefersson-Vaz" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="hover:text-slate-200 transition-colors">
