@@ -3,6 +3,7 @@
 Personal portfolio website built with **React + Vite**, featuring a dark glassmorphism Bento Grid layout, bilingual support (PT-BR / EN), live infrastructure status badges, and smooth animations.
 
 **Live:** [thomasjeferssonvaz.dev.br](https://thomasjeferssonvaz.dev.br)
+**Live:** [mikrolabs.dev](https://mikrolabs.dev)
 
 ---
 
