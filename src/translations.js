@@ -1,5 +1,6 @@
 export const translations = {
     pt: {
+        greeting: '> Olá, Mundo!',
         role: "Especialista em TI & Infraestrutura",
         about: "Foco em Administração de Sistemas, Redes e HomeLab. Entusiasta de orquestração via Docker e segurança com MikroTik.",
         skills: {
@@ -37,12 +38,14 @@ export const translations = {
             {
                 title: "HomeLab Híbrido (Local + Cloud)",
                 iconUrl: "https://www.svgrepo.com/show/529863/server-minimalistic.svg",
+                href: "https://github.com/Thomas-Jefersson-Vaz",
                 desc: "Infraestrutura híbrida integrando servidor i3-10100 local com Oracle Cloud via Tailscale Mesh, superando CGNAT para comunicação estável.",
                 tags: ["Tailscale", "Oracle Cloud", "Hybrid", "CGNAT"]
             },
             {
                 title: "Infraestrutura Pessoal",
                 iconUrl: "https://www.svgrepo.com/show/532033/cloud.svg",
+                href: "https://thomasjeferssonvaz.dev.br",
                 desc: "Ecossistema auto-hospedado no domínio thomasjeferssonvaz.dev.br com Cloudflare Tunnels e SSL automatizado.",
                 tags: ["Cloudflare", "Self-hosted", "SSL", "Tunnels"]
             },
@@ -73,12 +76,14 @@ export const translations = {
             {
                 title: "MikroTech Radio Bot",
                 iconUrl: "https://www.svgrepo.com/show/532711/music-note.svg",
+                href: "https://mikrolabs.dev/invite",
                 desc: "Bot do Discord para streaming de música sob demanda.",
                 tags: ["Discord", "Radio", "Music", "Automation"]
             }
         ]
     },
     en: {
+        greeting: '> Hello, World!',
         role: "IT Specialist & Infrastructure",
         about: "Focus on System Administration, Networks, and HomeLabs. Enthusiast of Docker orchestration and MikroTik security.",
         skills: {
@@ -116,12 +121,14 @@ export const translations = {
             {
                 title: "Hybrid HomeLab (Local + Cloud)",
                 iconUrl: "https://www.svgrepo.com/show/529863/server-minimalistic.svg",
+                href: "https://github.com/Thomas-Jefersson-Vaz",
                 desc: "Hybrid infrastructure integrating local i3-10100 server with Oracle Cloud via Tailscale Mesh, overcoming CGNAT.",
                 tags: ["Tailscale", "Oracle Cloud", "Hybrid", "CGNAT"]
             },
             {
                 title: "Personal Infrastructure",
                 iconUrl: "https://www.svgrepo.com/show/532033/cloud.svg",
+                href: "https://thomasjeferssonvaz.dev.br",
                 desc: "Self-hosted ecosystem on thomasjeferssonvaz.dev.br with Cloudflare Tunnels and automated SSL.",
                 tags: ["Cloudflare", "Self-hosted", "SSL", "Tunnels"]
             },
@@ -152,10 +159,10 @@ export const translations = {
             {
                 title: "MikroTech Radio Bot",
                 iconUrl: "https://www.svgrepo.com/show/532711/music-note.svg",
+                href: "https://mikrolabs.dev/invite",
                 desc: "Discord bot for music streaming on demand",
                 tags: ["Discord", "Radio", "Music", "Automation"]
             }
-
         ]
     }
 };

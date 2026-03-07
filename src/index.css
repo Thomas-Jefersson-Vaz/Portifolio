@@ -17,6 +17,9 @@
 }
 
 @layer base {
+  html {
+    scroll-padding-top: 5rem; /* offset for fixed header */
+  }
   body {
     @apply bg-slate-950 text-slate-100 font-sans antialiased selection:bg-brand-500/30;
   }
